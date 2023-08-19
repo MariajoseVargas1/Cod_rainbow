@@ -1,0 +1,21 @@
+int led = 11;
+
+
+void setup() {
+  pinMode(led, OUTPUT);
+  
+}
+
+void loop() {
+     digitalWrite(led, 255);
+     delay(15000);
+     digitalWrite(led, LOW);
+     delay(20000);
+     digitalWrite(led, 170);
+     delay(15000);
+     digitalWrite(led, LOW);
+     delay(5000);
+         
+}
+
+//Codigo rainbow flashlight de majo e ivan :3
